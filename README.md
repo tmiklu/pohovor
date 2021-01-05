@@ -14,7 +14,7 @@ result in output:
 
 ## 2. Find duplicate uid in /etc/passwd 
 
-copy cmd and hit enter 
+copy cmd and hit enter: 
 
 `awk -F":" 'n=x[$3]{print n"\n"$1"\t"$3;} {x[$3]=$1"\t"$3;}' /etc/passwd`
 
