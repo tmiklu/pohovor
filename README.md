@@ -1,4 +1,6 @@
-# 1. Run Hello World webserver in nginx 
+# Tasks 
+
+## 1. Run Hello World webserver in nginx 
 
 copy following commands to do clone repo, cd to pohovor, build, run and stop container: 
 ```
@@ -10,7 +12,7 @@ echo
 result in output: 
 `Hello World` 
 
-# 2. Find duplicate uid in /etc/passwd 
+## 2. Find duplicate uid in /etc/passwd 
 
 `awk -F":" 'n=x[$3]{print n"\n"$1"\t"$3;} {x[$3]=$1"\t"$3;}' /etc/passwd`
 
