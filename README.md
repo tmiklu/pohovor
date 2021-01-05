@@ -1,6 +1,6 @@
 # Tasks 
 
-## 1. Run Hello World webserver in nginx 
+## 1. Run Hello World in nginx container 
 
 copy following commands to do clone repo, cd to pohovor, build, run and stop container: 
 ```
