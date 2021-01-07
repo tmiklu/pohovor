@@ -16,6 +16,8 @@ result in output:
 
 copy cmd and hit enter: 
 
-`awk -F":" 'n=x[$3]{print n"\n"$1"\t"$3;} {x[$3]=$1"\t"$3;}' /etc/passwd`
+`awk -F":" 'n=x[$3]{print n"\n"$1"\t"$3;} {x[$3]=$1"\t"$3;}' /etc/passwd` 
+
+`awk -F\: 'a[$3]++{print $3}' /etc/passwd`
 
 all
